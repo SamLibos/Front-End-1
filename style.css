@@ -1,26 +1,56 @@
-.cor-de-fundo {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-    background-color: darkgray;
+body {
 
-}
-
-.job-title {
-
-background-color: darkslateblue;
-color: floralwhite;
+    background-color: #131313 ;
 
 }
 
-#high {
+h1 {
 
-    color: midnightblue;
-}
-
-.footer {
-
-background-color: darkslategrey;
-color: ghostwhite;
-
+    color: white;
+    font-family: "Roboto", "Arial", sans-serif;
 
 
 }
+
+.media-picture {
+
+    width: 100% ;
+    height: 400px;
+    background-image:url('https://static3.srcdn.com/wordpress/wp-content/uploads/2021/06/Avengers-MArvel-Comics.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.review-score { 
+
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+
+}
+
+h2 {
+
+    color:steelblue
+}
+
+<p> {
+
+    color:#bdbdbd
+    font-family: "Roboto", "Arial", sans-serif;
+
+}
+
+<a></a> { 
+
+    color:yellow
+}
+
+
+
