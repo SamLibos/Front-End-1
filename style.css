@@ -1,27 +1,39 @@
-h1 {
-color:red
+body  { 
+    height:2000px
+
+
 }
 
-h2 { color:red}
-
-.banner {
-
+.box {
     text-align: center;
-    background-image: url(https://www.heavyblogisheavy.com/wp-content/uploads/2019/06/Gift2Art-JudasPriest-Banner.png);
-    width: 1280px;
-    height: 720px;
-    background-repeat: no-repeat;
-    background-size: 1280px 720px ;
-    border: red 2px solid;
-    border-radius: 25px
-    boxsizing =  border-box
+    width: 300px;
+    height: 300px;
+    border: yellow 100px solid;
+    box-sizing: border-box; 
+    
+}
+
+
+.box-first {
+
+    background-color: pink;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-second {
+    
+    background-color: red;
+    position:fixed;
+    bottom: 0;
+    left: calc(50% - 300px/2);
 
 }
 
-.button {
+.box-third {
 
-width: 10px;
-height: 3px
-
-
+    background-color: slateblue;
+    position:absolute;
+    right: 0;
 }
