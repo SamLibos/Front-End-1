@@ -1,0 +1,48 @@
+button {
+
+    border:0;
+    padding:12px 24px;
+    background-color:red;
+    border-radius: 12px;
+    transition-duration: 1s  ;
+
+}
+
+button:hover {
+
+    border-radius: 0;
+    background-color:blue;
+    
+}
+
+p::first-letter {
+
+    font-weight: bold;
+    color:red
+     
+}
+
+.nome:focus {
+    color:yellow;
+   
+  }
+  
+.sobrenome:focus {
+    color:blue;
+  }
+
+.checado:checked {
+    margin-left: 25px;
+    border: 1px solid blue;
+}
+
+ul li:nth-child(3n){
+
+    color:blue
+    
+    }
+
+
+        
+
+.nao-usar:disabled {}
