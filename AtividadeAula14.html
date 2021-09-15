@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Atividade Aula14.css">
+</head>
+
+
+
+
+<body>
+
+    <form autocomplete="on">
+
+<img src="https://www.mycontatos.com.br/wp-content/uploads/2017/12/casa-de-bolos-pinda-sp.jpg" alt="">
+
+
+    <h1>Escolha seu bolo, cobertura e recheio !!!</h1>
+
+  
+
+    <fieldset>
+        <legend> Dados Pessoais</legend>
+
+        <div>
+            <label for="fullName">Nome Completo</label>
+        
+            <input required type="text" name = "fullName" id="name"></input>
+    
+        </div>
+    
+        <div>
+    
+            <label for="email">e-mail</label>
+        
+            <input type="email" id="email"></input>
+    
+        </div>
+    
+        <div>
+    
+            <label for="cargo">Endereço</label>
+        
+            <input type="text" name="endereço" id="endereço"></input>
+    
+        </div>
+        
+           
+    <div>
+        <input type="checkbox" id="entrega" name="entrega">
+        <label for="">Entrega?</label>
+    </div>
+
+ 
+
+    <div>
+        <label for="observation">Ponto de referencia para entrega</label>
+        <textarea  type="text"  > </textarea>
+    </div>
+
+    
+
+    </fieldset>
+
+    <fieldset>
+        <legend>
+             Escolha o tipo de bolo
+        </legend>
+        
+        <label for="bolo">Bolo</label>
+        <select name="bolo" id="bolo"> 
+            <option value="">Selecione uma opção de bolo</option>
+            
+            <option value="1">Chocolate</option>
+            <option value="2">Cenoura</option>
+            <option value="3">Formigueiro</option>
+            <option value="4">Fubá</option> 
+            <option value="">Laranja</option> 
+        </select>   
+    </fieldset>
+
+    <fieldset>
+        <legend>
+             Escolha a cobertura
+        </legend>
+        
+        <label for="cobertura">Cobertura</label>
+        <select name="cobertura" id="cobertura"> 
+            <option value="">Selecione uma cobertura</option>
+             <option value="1">Chocolate</option>
+            <option value="2">Baunilha</option>
+            <option value="3">Morango</option>
+            <option value="4">Laranja</option>
+        </select>   
+    </fieldset>
+
+    <fieldset>
+        <legend>
+             Escolha o recheio do bolo.
+        </legend>
+        
+        <label for="recheio">Recheio</label>
+        <select name="recheio" id="recheio"> 
+            <option value="">Selecione um recheio</option>
+             <option value="1">Chocolate</option>
+            <option value="2">Baunilha</option>
+            <option value="3">Morango</option>
+            <option value="4">Laranja</option>
+        </select>   
+    </fieldset>
+
+<div class= botoes>
+    <button type="submit">Send</button>
+    <button type="reset"> Limpar o formulário</button>
+</div>
+    
+
+   
+
+    
+
+
+</form>
+
+    
+</body>
+</html>

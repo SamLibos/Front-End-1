@@ -1,0 +1,41 @@
+
+body {
+
+    height:1000px
+
+    background-color: pink;
+
+    
+    }
+    
+    h1 { 
+    
+        color:red
+    }
+    
+    img{
+        width:200px
+
+        height:200px
+      
+    }
+    
+    fieldset {
+        
+        text-align: center;
+        color:red
+    }
+    
+     legend {
+            color: salmon  ;
+            font-size: 24px;
+            text-align: center;
+    
+     }
+
+     .botoes {
+
+        padding-top: 20px;
+
+
+     }
