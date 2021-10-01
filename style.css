@@ -10,22 +10,15 @@
 
 
 h1 { 
-    color:#6d6dc9 ;
+    color:blue ;
     margin-left: 20px;
 }
 
-p {
-    margin:20px;
+p { margin:20px; }
 
+h2 { color:blue;}
 
-}
-
-h2 { color:#6d6dc9}
-
-ul {
-    margin-left: 20px;
-
-}
+ul { margin-left: 20px; }
 
 .primeiro-banner {
     
@@ -45,6 +38,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 20px;
 
 }
 
@@ -61,6 +55,46 @@ ul {
     transform: scale(1.05);
     transition: .3s ease-in-out;
     }
+
+form {
+
+    
+    background-color: dodgerblue;
+    margin: 0 auto;
+    text-align: left;
+    width:400px;
+    padding: 20px;
+}
+
+
+input {
+        border: 1px solid;
+        border-radius: 12px;
+        display: block;
+        width: 300px;
+}
+
+select {
+    border: 1px solid;
+    border-radius: 12px;
+    display: block;
+
+}
+
+button {
+    color:blue;
+    border-radius: 12px;
+    text-align: center;
+    margin-right:10px ;
+}
+
+button:hover {
+
+transform: scale(1.5);
+transition: 0.05s ease;
+
+}
+
 
 .prefeitura {
     background-image: url(./imagens/BGS7yWri_400x400.jpg);

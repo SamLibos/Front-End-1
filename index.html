@@ -46,17 +46,94 @@
          <li>Ambas pontas da praia central foram intalados pontos turisticos, na parte norte uma roda gigante e na ponta sul um teleférico.</li>
     </ul>
 
+    <form>
+
+        
+            
+        
+            <h1>Cadastro de Usuário</h1>
+            <h2>Dados Pessoais</h2>
+
+            <div>                 
+            <label for="fullName">Nome:</label>
+            <input required type="text" name="fullName" id="fullName">
+            </div>  
+
+            <div>       
+            <label for="email">e-mail:</label>
+            <input required type="email"  id="email">
+            </div>
+
+            <div>   
+            <label for="phoneNumber">Telefone:</label>
+            <input required  type="phoneNumber" name="phoneNumber" id="phoneNumber">
+            </div>
+
+            <div>   
+            <label for="birthDate">Data de Nascimento:</label>
+            <input required type="date" name="birthDate" id="birthDate">
+            </div>
+
+            <div>   
+            <label for="menorDeIdade">Sou menor de Idade: </label>
+            <input type="radio"  name="maioridade" id="menorDeIdade">
+            
+            <label for="maiorDeIdade">Sou maior de Idade:</label>
+            <input type="radio" checked name="maioridade" id="maiorDeIdade">
+            </div>
+            
+            <div>   
+                <label for="turista">Sou Turista </label>
+                <input type="radio"  name="turista" id="turista">
+                
+                <label for="residente">Sou Residente</label>
+                <input type="radio"  name="residente" id="residente">
+
+                <label for="estudante">Sou Estudante</label>
+                <input type="radio"  name="estudante" id="estudante">
+            </div>
+         
+        
+       
+            <h2> Caso seja Turista, nos diga o  Motivo da Viagem </h2>
+            <div>   
+                <label for="reasonForVisitation">Razão da Visita:</label>
+                <select name="reasonForVisitation" id="reasonForVisitation">
+                    <option value="0">Escolha o motivo de sua visita</option>
+                    <option value="1">Praia</option>
+                    <option value="2">Baladas</option>
+                    <option value="3">Compras</option>
+                    <option value="4">Eventos</option>
+                </select>
+            </div>
+
+            <div>   
+                <label for="cityOfOrigin">Cidade de Origem:</label>
+                <input  type="text" name="cityOfOrigin" id="cityOfOrigin">
+                </div>
+        
+
+            <div>   
+                <label for="password">Senha</label>
+                <input minlength="6" maxlength="8" type="password" name="password" id="password">
+            </div>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar o Formulário</button>
+             
+
+
+    </form>
+
+
     <div class="segundo-banner"></div>
+    
+    
+
 
     <div class="prefeitura"></div>
     <a href="https://www.bc.sc.gov.br/">Prefeitura de Balneario Camboriu</a> 
 
 
-    
-    
-        
- 
-    
-    
 </body>
 </html>
